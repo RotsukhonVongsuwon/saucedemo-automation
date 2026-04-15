@@ -1,8 +1,8 @@
 ENV: prod
 BROWSER: chromium
-HEADLESS: false
-TIMEOUT: 20s
+HEADLESS: true
+TIMEOUT: 30S
 PAUSE ON FAILURE: true
 BASE_URL: https://www.saucedemo.com
-USERNAME: standard_user
-PASSWORD: secret_sauce
+#USERNAME: standard_user
+#PASSWORD: secret_sauce

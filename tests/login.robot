@@ -47,7 +47,7 @@ TC_Login_007 User input valid username and password #(E2E)
     Login With Credentials    standard_user    secret_sauce
     # Verify login success
     Get Url    contains    inventory
-    # Verify image incorrect (example: src not match expected)
+    # Verify image correct (example: src match expected)
     ${img}=    Get Attribute    (//img[@class="inventory_item_img"])[1]    src
     Should Contain    ${img}    sauce-backpack-1200x1500
 

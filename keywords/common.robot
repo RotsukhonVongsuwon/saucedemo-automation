@@ -1,6 +1,6 @@
 *** Settings *** 
 Variables    ../resources/config.yaml
-Library    Browser  auto_closing_level=Test
+Library    Browser  auto_closing_level=Suite
 Library    RequestsLibrary
 Library    Collections
 
