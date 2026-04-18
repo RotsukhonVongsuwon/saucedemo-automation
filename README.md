@@ -27,6 +27,7 @@ I am currently learning how to build automated tests using Robot Framework and a
 
 - tests/
   - login.robot
+  - product.robot
 - keywords/
   - common.robot
 - resources/
@@ -45,9 +46,16 @@ I am currently learning how to build automated tests using Robot Framework and a
   - Locked out user
   - Problem user
   - Valid login
+- **Product Flow** (In progress)
+  - Display product list
+  - Display product name
+  - Display product price
+  - Display product image
+  - Display product description
+
 
 ### 🚧 In Progress (Coming Soon)
-- Product Flow
+- Product Flow >> (In progress)
 - Cart Flow
 - Checkout Flow
 
