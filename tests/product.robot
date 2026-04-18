@@ -107,3 +107,36 @@ TC_Product_021 Cart badge increases after adding item
     # Verify cart badge
     ${badge}=    Get Text    //span[@class="shopping_cart_badge"]
     Should Be Equal    ${badge}    2
+
+TC_Product_022 Navigate to product detail correctly.
+    Open URL    ${BASE_URL}
+    Login With Credentials    standard_user    secret_sauce
+    Click    //a[@id="item_5_title_link"]
+    # Verify product detail
+    ${product_detail}=    Get Text   //div[@class="inventory_details_name large_size"]
+    Should Be Equal    ${product_detail}    Sauce Labs Fleece Jacket
+
+TC_Product_023 Navigate to cart successfully.
+    Open URL    ${BASE_URL}
+    Login With Credentials    standard_user    secret_sauce
+    Click    //a[@class="shopping_cart_link"]
+    # Verify cart screen
+    ${page_title}=    Get Text   //span[@class="title"]
+    Should Be Equal    ${page_title }    Your Cart 
+
+TC_Product_024 Navigate to menu(hamburger bar) successfully.
+    Open URL    ${BASE_URL}
+    Login With Credentials    standard_user    secret_sauce
+    Click    //button[@id="react-burger-menu-btn"]
+    # Verify menu options
+    ${menu_options}=    Get Text    //div[@class="bm-menu"]
+    Should Not Be Empty    ${menu_options}
+
+TC_Product_025 Logout successfully.
+    Open URL    ${BASE_URL}
+    Login With Credentials    standard_user    secret_sauce
+    Click    //button[@id="react-burger-menu-btn"]
+    Click    //a[@id="logout_sidebar_link"]
+    # Verify logout successfully
+    ${login_box}=    Get Text    //input[@class="submit-button btn_action"]
+    Should Not Be Empty    ${login_box}
