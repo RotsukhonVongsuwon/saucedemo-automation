@@ -1,6 +1,6 @@
 ENV: prod
 BROWSER: chromium
-HEADLESS: true
+HEADLESS: False
 TIMEOUT: 30S
 PAUSE ON FAILURE: true
 BASE_URL: https://www.saucedemo.com

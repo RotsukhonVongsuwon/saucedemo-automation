@@ -1,0 +1,31 @@
+product_names:
+  - Sauce Labs Backpack
+  - Sauce Labs Bike Light
+  - Sauce Labs Bolt T-Shirt
+  - Sauce Labs Fleece Jacket
+  - Sauce Labs Onesie
+  - Test.allTheThings() T-Shirt (Red)
+
+product_prices:
+  - 29.99
+  - 9.99
+  - 15.99
+  - 49.99
+  - 7.99
+  - 15.99
+
+product_images:
+  - backpack
+  - bike-light
+  - bolt-shirt
+  - sauce-pullover
+  - red-onesie
+  - red-tatt
+
+product_descriptions:
+  - carry.allTheThings
+  - A red light 
+  - Get your testing superhero on with the Sauce Labs bolt T-shirt
+  - It's not every day that you come across a midweight quarter-zip fleece jacket
+  - Rib snap infant onesie 
+  - This classic Sauce Labs t-shirt
