@@ -28,6 +28,7 @@ I am currently learning how to build automated tests using Robot Framework and a
 - tests/
   - login.robot
   - product.robot
+  - cart.robot
 - keywords/
   - common.robot
 - resources/
@@ -47,17 +48,22 @@ I am currently learning how to build automated tests using Robot Framework and a
   - Locked out user
   - Problem user
   - Valid login
-- **Product Flow** (In progress)
+- **Product Flow**
   - Display product list/name/price/image/description
   - Sorting by Name (A-Z)/by Name (Z-A)/by Price (low-high)/by Price (high-low)
   - Add to cart / Remove from Cart
   - Add muliple items to cart / Remove one item from multiple
   - Cart badge increases after adding item
+  - Navigate to product detail
+  - Navigate to cart
+  - Navigate to menu(hamburger bar)
+  - Logout from menu(hamburger bar)
+- **Cart Flow** (In progress)
+  - Display cart screen / added item / added multiple items
 
 
 ### 🚧 In Progress (Coming Soon)
-- Product Flow >> (In progress)
-- Cart Flow
+- Cart Flow >> (In progress)
 - Checkout Flow
 
 ---
