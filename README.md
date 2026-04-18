@@ -32,6 +32,7 @@ I am currently learning how to build automated tests using Robot Framework and a
   - common.robot
 - resources/
   - config.yaml
+  - test_data.yaml
 
 ---
 
