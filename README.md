@@ -32,6 +32,7 @@ I am currently learning how to build automated tests using Robot Framework and a
   - common.robot
 - resources/
   - config.yaml
+  - test_data.yaml
 
 ---
 
@@ -47,11 +48,11 @@ I am currently learning how to build automated tests using Robot Framework and a
   - Problem user
   - Valid login
 - **Product Flow** (In progress)
-  - Display product list
-  - Display product name
-  - Display product price
-  - Display product image
-  - Display product description
+  - Display product list/name/price/image/description
+  - Sorting by Name (A-Z)/by Name (Z-A)/by Price (low-high)/by Price (high-low)
+  - Add to cart / Remove from Cart
+  - Add muliple items to cart / Remove one item from multiple
+  - Cart badge increases after adding item
 
 
 ### 🚧 In Progress (Coming Soon)
